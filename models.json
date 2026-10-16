@@ -1,0 +1,2230 @@
+[
+  {
+    "id": "deepseek-flash",
+    "displayName": "DeepSeek V4.1 Flash",
+    "provider": "deepseek",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 384000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "high",
+          "fallback": "high",
+          "default": true
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true
+    },
+    "ownedBy": "deepseek"
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "displayName": "DeepSeek V4 Flash",
+    "provider": "deepseek",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 384000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "high",
+          "fallback": "high",
+          "default": true
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true
+    },
+    "ownedBy": "deepseek"
+  },
+  {
+    "id": "deepseek-v4-flash-vision-exp",
+    "displayName": "DeepSeek V4 Flash Vision Exp",
+    "provider": "deepseek",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 384000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "high",
+          "fallback": "high",
+          "default": true
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true
+    },
+    "ownedBy": "deepseek"
+  },
+  {
+    "id": "kimi-k3",
+    "displayName": "Kimi K3",
+    "provider": "moonshot",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1048576,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max",
+          "default": true
+        }
+      ],
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "moonshot"
+  },
+  {
+    "id": "kimi-k2.7-code",
+    "displayName": "Kimi K2.7 Code",
+    "provider": "moonshot",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "moonshot"
+  },
+  {
+    "id": "kimi-k2.7-code-highspeed",
+    "displayName": "Kimi K2.7 Code Highspeed",
+    "provider": "moonshot",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "moonshot"
+  },
+  {
+    "id": "kimi-k2.6",
+    "displayName": "Kimi K2.6",
+    "provider": "moonshot",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "moonshot"
+  },
+  {
+    "id": "gpt-6-astra",
+    "displayName": "GPT-6 Astra",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 1050000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "xhigh",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-6.1-sol",
+    "displayName": "GPT-6.1 Sol",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 1050000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium",
+          "default": true
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "xhigh",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-6-luna",
+    "displayName": "GPT-6 Luna",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 1050000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "none",
+          "fallback": "low"
+        },
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium",
+          "default": true
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "xhigh",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-6-sol",
+    "displayName": "GPT-6 Sol",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 1050000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "none",
+          "fallback": "low"
+        },
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium",
+          "default": true
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "xhigh",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-5.6-sol",
+    "displayName": "GPT-5.6 Sol",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 1050000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "xhigh",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-5.6-terra",
+    "displayName": "GPT-5.6 Terra",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 1050000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "xhigh",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-5.6-luna",
+    "displayName": "GPT-5.6 Luna",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 1050000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "xhigh",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-5.3-codex",
+    "displayName": "GPT-5.3-Codex",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 400000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-5.5",
+    "displayName": "GPT-5.5",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 400000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "medium",
+          "fallback": "medium"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max"
+        }
+      ],
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-2",
+    "displayName": "GPT Image 2",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-2-2026-04-21",
+    "displayName": "GPT Image 2 2026-04-21",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-2.5-sunburst",
+    "displayName": "GPT Image 2.5 Sunburst",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-2.5-sunburst-2026-09-08",
+    "displayName": "GPT Image 2.5 Sunburst 2026-09-08",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-2.5-flare",
+    "displayName": "GPT Image 2.5 Flare",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-2.5-flare-2026-09-08",
+    "displayName": "GPT Image 2.5 Flare 2026-09-08",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-1.5",
+    "displayName": "GPT Image 1.5",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-1-mini",
+    "displayName": "GPT Image 1 Mini",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "gpt-image-1",
+    "displayName": "GPT Image 1",
+    "provider": "openai",
+    "endpointType": "openai-responses",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 4096,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true,
+      "imageInput": true
+    },
+    "ownedBy": "openai"
+  },
+  {
+    "id": "glm-5.2",
+    "displayName": "GLM-5.2",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true,
+      "webSearch": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-5.3",
+    "displayName": "GLM-5.3",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max",
+          "default": true
+        }
+      ],
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-5.3-flash",
+    "displayName": "GLM-5.3 Flash",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "reasoningEfforts": [
+        {
+          "id": "low",
+          "fallback": "low"
+        },
+        {
+          "id": "high",
+          "fallback": "high"
+        },
+        {
+          "id": "max",
+          "fallback": "max",
+          "default": true
+        }
+      ],
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-image",
+    "displayName": "GLM-Image",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "cogview-4-250304",
+    "displayName": "CogView-4 250304",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "cogview-4",
+    "displayName": "CogView-4",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "cogview-3-flash",
+    "displayName": "CogView-3 Flash",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-5.1",
+    "displayName": "GLM-5.1",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-5",
+    "displayName": "GLM-5",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-5-turbo",
+    "displayName": "GLM-5 Turbo",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-4.7",
+    "displayName": "GLM-4.7",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-4.7-flashx",
+    "displayName": "GLM-4.7 FlashX",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-4.6",
+    "displayName": "GLM-4.6",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-5v-turbo",
+    "displayName": "GLM-5V Turbo",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-4.6v",
+    "displayName": "GLM-4.6V",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 128000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-4.6v-flash",
+    "displayName": "GLM-4.6V Flash",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 128000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "glm-4.1v-thinking-flashx",
+    "displayName": "GLM-4.1V Thinking FlashX",
+    "provider": "zhipu",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 64000,
+    "maxOutputTokens": 16000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "zhipu"
+  },
+  {
+    "id": "qwen3.8-max",
+    "displayName": "Qwen3.8 Max",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.8-max-0902",
+    "displayName": "Qwen3.8 Max 0902",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.8-flash",
+    "displayName": "Qwen3.8 Flash",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.7-max",
+    "displayName": "Qwen3.7 Max",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.7-plus",
+    "displayName": "Qwen3.7 Plus",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.7-max-2026-06-08",
+    "displayName": "Qwen3.7 Max 2026-06-08",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.7-plus-2026-05-26",
+    "displayName": "Qwen3.7 Plus 2026-05-26",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.7-flash",
+    "displayName": "Qwen3.7 Flash",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.7-flash-2026-07-15",
+    "displayName": "Qwen3.7 Flash 2026-07-15",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.6-plus",
+    "displayName": "Qwen3.6 Plus",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.6-plus-2026-04-02",
+    "displayName": "Qwen3.6 Plus 2026-04-02",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.6-flash",
+    "displayName": "Qwen3.6 Flash",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.6-flash-2026-04-16",
+    "displayName": "Qwen3.6 Flash 2026-04-16",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.5-plus",
+    "displayName": "Qwen3.5 Plus",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.5-plus-2026-02-15",
+    "displayName": "Qwen3.5 Plus 2026-02-15",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.5-flash",
+    "displayName": "Qwen3.5 Flash",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen3.5-flash-2026-02-23",
+    "displayName": "Qwen3.5 Flash 2026-02-23",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-3.0-pro",
+    "displayName": "Qwen Image 3.0 Pro",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-3.0",
+    "displayName": "Qwen Image 3.0",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-2.0-pro",
+    "displayName": "Qwen Image 2.0 Pro",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-2.0-pro-2026-06-22",
+    "displayName": "Qwen Image 2.0 Pro 2026-06-22",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-2.0-pro-2026-04-22",
+    "displayName": "Qwen Image 2.0 Pro 2026-04-22",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-2.0-pro-2026-03-03",
+    "displayName": "Qwen Image 2.0 Pro 2026-03-03",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-2.0",
+    "displayName": "Qwen Image 2.0",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-2.0-2026-03-03",
+    "displayName": "Qwen Image 2.0 2026-03-03",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true,
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-max",
+    "displayName": "Qwen Image Max",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-max-2025-12-30",
+    "displayName": "Qwen Image Max 2025-12-30",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-plus",
+    "displayName": "Qwen Image Plus",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-plus-2026-01-09",
+    "displayName": "Qwen Image Plus 2026-01-09",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image",
+    "displayName": "Qwen Image",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-edit-max",
+    "displayName": "Qwen Image Edit Max",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-edit-max-2026-01-16",
+    "displayName": "Qwen Image Edit Max 2026-01-16",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-edit-plus",
+    "displayName": "Qwen Image Edit Plus",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-edit-plus-2025-12-15",
+    "displayName": "Qwen Image Edit Plus 2025-12-15",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-edit-plus-2025-10-30",
+    "displayName": "Qwen Image Edit Plus 2025-10-30",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "qwen-image-edit",
+    "displayName": "Qwen Image Edit",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan3.0-video",
+    "displayName": "Wan 3.0 Video",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "videoGeneration": true,
+      "videoEdit": true,
+      "textToVideo": true,
+      "imageToVideo": true,
+      "referenceToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan3.0-video-prime",
+    "displayName": "Wan 3.0 Video Prime",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "videoGeneration": true,
+      "videoEdit": true,
+      "textToVideo": true,
+      "imageToVideo": true,
+      "referenceToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan2.7-t2v",
+    "displayName": "Wan 2.7 Text to Video",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "videoGeneration": true,
+      "textToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan2.7-t2v-2026-06-12",
+    "displayName": "Wan 2.7 Text to Video 2026-06-12",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "videoGeneration": true,
+      "textToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan2.7-t2v-2026-04-25",
+    "displayName": "Wan 2.7 Text to Video 2026-04-25",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "videoGeneration": true,
+      "textToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan2.7-i2v",
+    "displayName": "Wan 2.7 Image to Video",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "videoGeneration": true,
+      "imageToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan2.7-i2v-2026-04-25",
+    "displayName": "Wan 2.7 Image to Video 2026-04-25",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "videoGeneration": true,
+      "imageToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan2.7-r2v-2026-06-12",
+    "displayName": "Wan 2.7 Reference to Video 2026-06-12",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "videoGeneration": true,
+      "referenceToVideo": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "wan2.7-videoedit",
+    "displayName": "Wan 2.7 Video Edit",
+    "provider": "dashscope",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 5000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "videoEdit": true
+    },
+    "ownedBy": "dashscope"
+  },
+  {
+    "id": "doubao-seed-evolving",
+    "displayName": "Doubao Seed Evolving",
+    "provider": "volcengine",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "volcengine"
+  },
+  {
+    "id": "doubao-seed-2-1-pro-260628",
+    "displayName": "Doubao Seed 2.1 Pro",
+    "provider": "volcengine",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "volcengine"
+  },
+  {
+    "id": "doubao-seedream-5-0-pro-260628",
+    "displayName": "Doubao Seedream 5.0 Pro",
+    "provider": "volcengine",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "volcengine"
+  },
+  {
+    "id": "MiniMax-M3",
+    "displayName": "MiniMax M3",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "MiniMax-M2.7",
+    "displayName": "MiniMax M2.7",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "MiniMax-M2.7-highspeed",
+    "displayName": "MiniMax M2.7 Highspeed",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "MiniMax-M2.5",
+    "displayName": "MiniMax M2.5",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "MiniMax-M2.5-highspeed",
+    "displayName": "MiniMax M2.5 Highspeed",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "MiniMax-M2.1",
+    "displayName": "MiniMax M2.1",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "MiniMax-M2.1-highspeed",
+    "displayName": "MiniMax M2.1 Highspeed",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "MiniMax-M2",
+    "displayName": "MiniMax M2",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "image-01",
+    "displayName": "Image 01",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "image-01-live",
+    "displayName": "Image 01 Live",
+    "provider": "minimax",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32000,
+    "maxOutputTokens": 1,
+    "capabilities": {
+      "imageGeneration": true
+    },
+    "ownedBy": "minimax"
+  },
+  {
+    "id": "step-3.7-flash",
+    "displayName": "Step 3.7 Flash",
+    "provider": "stepfun",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32768,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "stepfun"
+  },
+  {
+    "id": "step-3.5-flash",
+    "displayName": "Step 3.5 Flash",
+    "provider": "stepfun",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32768,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "stepfun"
+  },
+  {
+    "id": "step-3.5-flash-2603",
+    "displayName": "Step 3.5 Flash 2603",
+    "provider": "stepfun",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32768,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "stepfun"
+  },
+  {
+    "id": "4.0Ultra",
+    "displayName": "Spark 4.0 Ultra",
+    "provider": "iflytek",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32768,
+    "maxOutputTokens": 32768,
+    "capabilities": {
+      "tools": true
+    },
+    "ownedBy": "iflytek"
+  },
+  {
+    "id": "pro-128k",
+    "displayName": "Spark Pro 128K",
+    "provider": "iflytek",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 131072,
+    "maxOutputTokens": 32768,
+    "capabilities": {},
+    "ownedBy": "iflytek"
+  },
+  {
+    "id": "generalv3",
+    "displayName": "Spark Pro",
+    "provider": "iflytek",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 8192,
+    "maxOutputTokens": 8192,
+    "capabilities": {},
+    "ownedBy": "iflytek"
+  },
+  {
+    "id": "lite",
+    "displayName": "Spark Lite",
+    "provider": "iflytek",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 8192,
+    "maxOutputTokens": 4096,
+    "capabilities": {},
+    "ownedBy": "iflytek"
+  },
+  {
+    "id": "kimi-k2.7-code",
+    "displayName": "Kimi K2.7 Code",
+    "provider": "opencode",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "deepseek-v4-pro",
+    "displayName": "DeepSeek V4 Pro",
+    "provider": "opencode",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 384000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "displayName": "DeepSeek V4 Flash",
+    "provider": "opencode",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 384000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "glm-5.2",
+    "displayName": "GLM 5.2",
+    "provider": "opencode",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "minimax-m3",
+    "displayName": "MiniMax M3",
+    "provider": "opencode",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "grok-4.5",
+    "displayName": "Grok 4.5",
+    "provider": "opencode",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "kimi-k3",
+    "displayName": "Kimi K3",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1048576,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "kimi-k2.7-code",
+    "displayName": "Kimi K2.7 Code",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "kimi-k2.6",
+    "displayName": "Kimi K2.6",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "deepseek-v4-pro",
+    "displayName": "DeepSeek V4 Pro",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 384000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "displayName": "DeepSeek V4 Flash",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 384000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "glm-5.2",
+    "displayName": "GLM 5.2",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "glm-5.1",
+    "displayName": "GLM 5.1",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 200000,
+    "maxOutputTokens": 128000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "grok-4.5",
+    "displayName": "Grok 4.5",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 256000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "mimo-v2.5",
+    "displayName": "MiMo V2.5",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 128000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "mimo-v2.5-pro",
+    "displayName": "MiMo V2.5 Pro",
+    "provider": "opencode_go",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 128000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "minimax-m3",
+    "displayName": "MiniMax M3",
+    "provider": "opencode_go",
+    "endpointType": "anthropic-messages",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "minimax-m2.7",
+    "displayName": "MiniMax M2.7",
+    "provider": "opencode_go",
+    "endpointType": "anthropic-messages",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "minimax-m2.5",
+    "displayName": "MiniMax M2.5",
+    "provider": "opencode_go",
+    "endpointType": "anthropic-messages",
+    "contextWindowTokens": 204800,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "qwen3.7-max",
+    "displayName": "Qwen3.7 Max",
+    "provider": "opencode_go",
+    "endpointType": "anthropic-messages",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "qwen3.7-plus",
+    "displayName": "Qwen3.7 Plus",
+    "provider": "opencode_go",
+    "endpointType": "anthropic-messages",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "qwen3.6-plus",
+    "displayName": "Qwen3.6 Plus",
+    "provider": "opencode_go",
+    "endpointType": "anthropic-messages",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 32000,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "opencode"
+  },
+  {
+    "id": "ernie-5.1",
+    "displayName": "ERNIE 5.1",
+    "provider": "qianfan",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 131072,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "baidu"
+  },
+  {
+    "id": "ernie-5.0",
+    "displayName": "ERNIE 5.0",
+    "provider": "qianfan",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 131072,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "baidu"
+  },
+  {
+    "id": "ernie-5.0-thinking-latest",
+    "displayName": "ERNIE 5.0 Thinking Latest",
+    "provider": "qianfan",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 131072,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "imageInput": true,
+      "reasoning": true,
+      "tools": true,
+      "vision": true
+    },
+    "ownedBy": "baidu"
+  },
+  {
+    "id": "ernie-x1.1",
+    "displayName": "ERNIE X1.1",
+    "provider": "qianfan",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 65536,
+    "maxOutputTokens": 65536,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true
+    },
+    "ownedBy": "baidu"
+  },
+  {
+    "id": "ernie-4.5-turbo-128k",
+    "displayName": "ERNIE 4.5 Turbo 128K",
+    "provider": "qianfan",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 131072,
+    "maxOutputTokens": 12288,
+    "capabilities": {},
+    "ownedBy": "baidu"
+  },
+  {
+    "id": "ernie-4.5-turbo-vl",
+    "displayName": "ERNIE 4.5 Turbo VL",
+    "provider": "qianfan",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 131072,
+    "maxOutputTokens": 16384,
+    "capabilities": {
+      "imageInput": true,
+      "vision": true
+    },
+    "ownedBy": "baidu"
+  },
+  {
+    "id": "ernie-4.5-turbo-vl-32k",
+    "displayName": "ERNIE 4.5 Turbo VL 32K",
+    "provider": "qianfan",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 32768,
+    "maxOutputTokens": 12288,
+    "capabilities": {
+      "imageInput": true,
+      "vision": true
+    },
+    "ownedBy": "baidu"
+  },
+  {
+    "id": "mimo-v2.6-pro",
+    "displayName": "MiMo V2.6 Pro",
+    "provider": "mimo",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "xiaomi"
+  },
+  {
+    "id": "mimo-v2.6-flash",
+    "displayName": "MiMo V2.6 Flash",
+    "provider": "mimo",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "imageInput": true,
+      "videoInput": true,
+      "reasoning": true,
+      "tools": true,
+      "webSearch": true,
+      "vision": true
+    },
+    "ownedBy": "xiaomi"
+  },
+  {
+    "id": "mimo-v2.6-pro-ultraspeed",
+    "displayName": "MiMo V2.6 Pro Ultraspeed",
+    "provider": "mimo",
+    "endpointType": "openai-chat-completions",
+    "contextWindowTokens": 1000000,
+    "maxOutputTokens": 131072,
+    "capabilities": {
+      "reasoning": true,
+      "tools": true,
+      "webSearch": true
+    },
+    "ownedBy": "xiaomi"
+  }
+]
